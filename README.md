@@ -1,4 +1,4 @@
-Synchronized Multithreaded Group Chat with Farewell Termination.
+# Synchronized Multithreaded Group Chat with Farewell Termination.
 
 Description of the scenario and implementation:
 The scenario implements a simple group chat system involving three participants. Each participant takes turns sending messages in a synchronized manner. The code system uses Java threads and synchronization mechanisms to ensure that only one participant can send a message simultaneously. It also ensures that the participants take turns while sending messages. The participants communicate using a shared chat object that provides synchronized methods for sending and receiving messages.
